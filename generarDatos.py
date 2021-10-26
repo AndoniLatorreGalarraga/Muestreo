@@ -1,4 +1,4 @@
-import random, csv
+import random, csv, math
 
 #funcion generadora de variables
 def generar(grado, edad):
@@ -11,22 +11,31 @@ def generar(grado, edad):
     elif edad == 35:
         edadGenerada = random.choice([k for k in range(35, 40)])
     elif edad == 40:
-        edadGenerada = random.choice([k for k in range(40,100)])
+        edadGenerada = random.choices([k for k in range(40,100)], [1/(1.07**i) for i in range(100-40)])[0]
+    
+    #generar variable sexo
+    
+    coefGrado = {'Biologia': 0.4, 'Bioquimica y Biologia Molecular': 0.45, 'Biotecnologia': 0.5, 'Ciencia y Tecnologia de los Alimentos': 0.2, 'Ciencias Ambientales': 0.55, 'Fisica': 0.8, 'Geologia': 0.2, 'Matematicas': 0.7, 'Quimica': 0.65}
 
-    #generar variable 1
-    if grado == 'Biologia':
-        var1 = random.normalvariate(3,2)
-    elif grado == 'Matematicas':
-        var1 = random.normalvariate(3.5,1)
+    coef = coefGrado[grado]*math.sqrt(edad)/10
+    l = len(grado)*math.sqrt(edad)/10
+
+    sexo = random.choices(['Hombre', 'Mujer'], [coef, 1-coef])[0]
+
+    #generar curso
     
-    #generar variable 2
-    if grado == 'Biologia':
-        var2 = random.choices(['Hombre', 'Mujer'], [0.4, 0.6])[0]
-    elif grado == 'Matematicas':
-        var2 = random.choices(['Hombre', 'Mujer'], [0.7, 0.3])[0]
+    curso = random.choices([1, 2, 3, 4], [l/1.05**(coef*i) for i in range(4)])[0]
+
+    #generar horas
+    horas = random.normalvariate(7*(1+coef), l/10)
+    horas = max(0, horas) #las horas son no negativas
     
+    #generar nota de bachi y sele
+    nota = random.normalvariate(7*(1+coef), math.sqrt(l))
+    nota = min(14,max(0,nota)) #0<=nota<=14
+
     #resultado
-    return [grado, edadGenerada, var1, var2]
+    return [grado, edadGenerada, sexo, curso, horas, nota]
 
 random.seed(0) #asegura que los resultados sean los mismos cada vez que se ejecuta
 
@@ -44,5 +53,5 @@ with open('test.csv') as csvFile:
 #datos -> datos.csv
 with open('datos.csv', 'w', encoding='UTF8', newline='') as f:
     writer = csv.writer(f)
-    writer.writerow(['Grado', 'Edad', 'Horas', 'Sexo'])
+    writer.writerow(['Grado', 'Edad', 'Sexo', 'Curso', 'Horas', 'Nota'])
     writer.writerows(datos)
