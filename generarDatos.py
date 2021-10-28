@@ -74,7 +74,7 @@ def generar(grado, edad):
     o = libre*(m-est) #P
     extra = random.choices(['Trabajo', 'Deporte', 'Otro', 'NO'], [t, d, o, 1+(t+d+o)/3])[0] #P
 
-    return [grado, edad, sexo, curso, sele, round(est,2), round(libre,2), extra]
+    return [grado, edad, sexo, curso, round(sele,2), round(est,2), round(libre,2), extra]
 
 random.seed(0) #asegura que los resultados sean los mismos cada vez que se ejecuta
 
