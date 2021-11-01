@@ -340,17 +340,17 @@ Biologia,27,Hombre,2,13.47,20.24,11.12,NO
 Biologia,28,Mujer,2,13.71,19.56,8.75,Trabajo
 Biologia,28,Hombre,3,13.96,24.54,0,NO
 Biologia,29,Mujer,4,12.98,23.16,7.39,Trabajo
-Biologia,30,Hombre,4,13.78,23.77,6.1,Trabajo
-Biologia,30,Mujer,1,12.38,8.56,19.1,NO
-Biologia,30,Hombre,3,13.97,28.26,4.42,Trabajo
-Biologia,30,Mujer,3,11.97,18.21,9.11,Trabajo
+Biologia,33,Hombre,4,13.78,23.77,6.1,Trabajo
+Biologia,34,Mujer,1,12.38,8.56,19.1,NO
+Biologia,31,Hombre,3,13.97,28.26,4.42,Trabajo
+Biologia,33,Mujer,3,11.97,18.21,9.11,Trabajo
 Biologia,35,Hombre,1,12.69,20.22,9.9,Trabajo
 Biologia,35,Mujer,2,12.24,9.64,13.51,Otro
-Biologia,35,Mujer,1,12.03,16.65,13.56,Deporte
-Biologia,35,Mujer,1,13.47,20.07,11.39,NO
-Biologia,40,Hombre,2,13.57,24.69,4.71,NO
-Biologia,40,Mujer,2,12.66,14.91,7.24,NO
-Biologia,40,Hombre,1,12.44,18.82,12.67,Deporte
+Biologia,36,Mujer,1,12.03,16.65,13.56,Deporte
+Biologia,39,Mujer,1,13.47,20.07,11.39,NO
+Biologia,43,Hombre,2,13.57,24.69,4.71,NO
+Biologia,45,Mujer,2,12.66,14.91,7.24,NO
+Biologia,50,Hombre,1,12.44,18.82,12.67,Deporte
 Bioquimica y Biologia Molecular,18,Mujer,1,13.5,14.65,11.75,NO
 Bioquimica y Biologia Molecular,18,Mujer,1,13.59,22.35,5.62,Trabajo
 Bioquimica y Biologia Molecular,18,Mujer,1,13.47,14.2,13.01,Deporte
@@ -504,8 +504,8 @@ Bioquimica y Biologia Molecular,23,Hombre,3,13.7,17.28,5.12,Trabajo
 Bioquimica y Biologia Molecular,24,Mujer,2,13.77,27.26,0,NO
 Bioquimica y Biologia Molecular,24,Hombre,1,13.86,28.17,0,NO
 Bioquimica y Biologia Molecular,29,Mujer,2,13.6,22.09,3.32,NO
-Bioquimica y Biologia Molecular,30,Mujer,3,13.94,23.96,0,NO
-Bioquimica y Biologia Molecular,30,Hombre,3,13.32,17.32,11.54,Trabajo
+Bioquimica y Biologia Molecular,32,Mujer,3,13.94,23.96,0,NO
+Bioquimica y Biologia Molecular,34,Hombre,3,13.32,17.32,11.54,Trabajo
 Biotecnologia,18,Mujer,1,12.99,19.31,7.45,NO
 Biotecnologia,18,Mujer,1,13.12,16.7,5.81,Deporte
 Biotecnologia,18,Mujer,1,13.67,24.08,2.61,Trabajo
@@ -639,7 +639,7 @@ Biotecnologia,22,Mujer,3,13.74,25.66,0.18,NO
 Biotecnologia,22,Hombre,2,12.87,18.61,8.68,Otro
 Biotecnologia,24,Hombre,4,14,27.68,1.55,Otro
 Biotecnologia,26,Hombre,1,13.35,19.86,5.68,Otro
-Biotecnologia,35,Hombre,4,13.69,24.49,0,NO
+Biotecnologia,38,Hombre,4,13.69,24.49,0,NO
 Ciencia y Tecnologia de los Alimentos,18,Hombre,1,12.32,13.28,29.0,Deporte
 Ciencia y Tecnologia de los Alimentos,18,Mujer,1,13.4,18.67,21.73,Deporte
 Ciencia y Tecnologia de los Alimentos,18,Mujer,1,12.95,22.73,19.46,Trabajo
@@ -741,8 +741,8 @@ Ciencia y Tecnologia de los Alimentos,26,Mujer,3,12.1,17.13,22.43,Otro
 Ciencia y Tecnologia de los Alimentos,26,Mujer,2,12.13,16.66,27.76,Otro
 Ciencia y Tecnologia de los Alimentos,27,Hombre,4,13.2,18.8,20.73,Trabajo
 Ciencia y Tecnologia de los Alimentos,27,Mujer,4,10.93,22.01,24.18,Otro
-Ciencia y Tecnologia de los Alimentos,30,Mujer,3,12.24,17.16,25.99,Deporte
-Ciencia y Tecnologia de los Alimentos,35,Hombre,2,9.94,9.94,31.86,NO
+Ciencia y Tecnologia de los Alimentos,32,Mujer,3,12.24,17.16,25.99,Deporte
+Ciencia y Tecnologia de los Alimentos,38,Hombre,2,9.94,9.94,31.86,NO
 Ciencias Ambientales,18,Mujer,1,12.57,13.62,22.73,Trabajo
 Ciencias Ambientales,18,Mujer,1,11.76,11.92,22.74,Trabajo
 Ciencias Ambientales,18,Hombre,1,12.97,16.16,20.27,Deporte
@@ -915,10 +915,10 @@ Ciencias Ambientales,26,Mujer,4,10.63,17.14,18.68,Trabajo
 Ciencias Ambientales,27,Hombre,1,11.92,16.59,21.2,Deporte
 Ciencias Ambientales,28,Mujer,3,11.48,15.54,23.76,Deporte
 Ciencias Ambientales,29,Mujer,1,10.55,10.29,23.55,Trabajo
-Ciencias Ambientales,30,Mujer,1,12.7,22.47,19.57,NO
-Ciencias Ambientales,35,Hombre,1,13.63,19.17,12.71,Deporte
-Ciencias Ambientales,35,Mujer,2,11.63,15.59,20.85,Deporte
-Ciencias Ambientales,40,Mujer,4,11.53,20.8,11.99,NO
+Ciencias Ambientales,31,Mujer,1,12.7,22.47,19.57,NO
+Ciencias Ambientales,38,Hombre,1,13.63,19.17,12.71,Deporte
+Ciencias Ambientales,38,Mujer,2,11.63,15.59,20.85,Deporte
+Ciencias Ambientales,49,Mujer,4,11.53,20.8,11.99,NO
 Fisica,18,Hombre,1,13.3,20.75,4.07,NO
 Fisica,18,Hombre,1,14.0,22.64,5.13,Trabajo
 Fisica,18,Hombre,1,12.69,11.92,16.66,Deporte
@@ -1294,9 +1294,9 @@ Geologia,24,Mujer,2,9.92,11.54,24.05,Otro
 Geologia,24,Mujer,3,11.7,16.45,20.34,Deporte
 Geologia,25,Mujer,1,12.12,17.78,16.86,Trabajo
 Geologia,29,Mujer,1,12.75,14.36,21.15,NO
-Geologia,30,Mujer,1,11.56,15.04,17.61,Otro
-Geologia,30,Mujer,2,13.44,15.96,20.89,Otro
-Geologia,30,Mujer,1,13.83,17.39,14.42,Trabajo
+Geologia,31,Mujer,1,11.56,15.04,17.61,Otro
+Geologia,31,Mujer,2,13.44,15.96,20.89,Otro
+Geologia,33,Mujer,1,13.83,17.39,14.42,Trabajo
 Geologia,40,Mujer,1,13.09,17.07,20.63,Otro
 Matematicas,18,Hombre,1,13.11,16.97,13.05,Deporte
 Matematicas,18,Hombre,1,12.69,12.13,17.91,Deporte
@@ -1516,10 +1516,10 @@ Matematicas,28,Hombre,2,13.2,21.43,7.24,Trabajo
 Matematicas,28,Hombre,3,14,25.65,0.78,Trabajo
 Matematicas,29,Hombre,1,12.66,17.35,13.52,Deporte
 Matematicas,30,Mujer,3,13.5,23.99,8.0,Trabajo
-Matematicas,30,Mujer,2,13.5,21.43,10.55,NO
-Matematicas,30,Hombre,1,13.51,21.91,6.89,Otro
-Matematicas,30,Hombre,4,13.92,29.28,0,NO
-Matematicas,40,Mujer,2,13.8,17.68,11.45,NO
+Matematicas,33,Mujer,2,13.5,21.43,10.55,NO
+Matematicas,33,Hombre,1,13.51,21.91,6.89,Otro
+Matematicas,34,Hombre,4,13.92,29.28,0,NO
+Matematicas,53,Mujer,2,13.8,17.68,11.45,NO
 Quimica,18,Hombre,1,11.22,15.19,14.16,Otro
 Quimica,18,Hombre,1,12.49,13.93,18.91,NO
 Quimica,18,Hombre,1,11.48,18.82,18.48,Otro
@@ -1993,9 +1993,9 @@ Quimica,28,Mujer,3,11.57,18.96,14.24,Deporte
 Quimica,28,Hombre,2,13.11,20.96,8.02,NO
 Quimica,29,Hombre,4,11.67,20.4,9.39,Trabajo
 Quimica,29,Mujer,4,12.18,17.85,13.77,Trabajo
-Quimica,30,Mujer,2,12.28,21.06,9.92,Trabajo
+Quimica,34,Mujer,2,12.28,21.06,9.92,Trabajo
 Quimica,30,Mujer,2,12.84,20.88,11.26,NO
-Quimica,30,Mujer,1,13.79,24.44,3.97,NO
-Quimica,30,Hombre,2,11.08,15.16,18.03,NO
-Quimica,35,Hombre,1,11.93,13.73,19.32,Trabajo
+Quimica,31,Mujer,1,13.79,24.44,3.97,NO
+Quimica,32,Hombre,2,11.08,15.16,18.03,NO
+Quimica,36,Hombre,1,11.93,13.73,19.32,Trabajo
 Quimica,35,Hombre,3,11.79,18.7,8.31,Trabajo

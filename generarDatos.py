@@ -27,15 +27,15 @@ def generar(grado, edad):
     n = nDict[grado]
     i = random.uniform(0,1) #poco esfuerzo/dificultades 0 --- 0.5 --- 1 mucho esfuerzo/facilidades
 
-    # #generar edad
-    # if edad >= 18 and edad <=29:
-    #     edadGenerada = edad
-    # elif edad == 30:
-    #     edadGenerada = random.choice([k for k in range(30, 35)])
-    # elif edad == 35:
-    #     edadGenerada = random.choice([k for k in range(35, 40)])
-    # elif edad == 40:
-    #     edadGenerada = random.choices([k for k in range(40,100)], [1/(1.07**i) for i in range(100-40)])[0] #P
+    #generar edad
+    if edad >= 18 and edad <=29:
+        edadGenerada = edad
+    elif edad == 30:
+        edadGenerada = random.choice([k for k in range(30, 35)])
+    elif edad == 35:
+        edadGenerada = random.choice([k for k in range(35, 40)])
+    elif edad == 40:
+        edadGenerada = random.choices([k for k in range(40,100)], [1/(1.07**i) for i in range(100-40)])[0] #P
     
     #generar variable sexo
     sexo = random.choices(['Hombre', 'Mujer'], [s, 1-s])[0]
@@ -74,7 +74,7 @@ def generar(grado, edad):
     o = libre*(m-est) #P
     extra = random.choices(['Trabajo', 'Deporte', 'Otro', 'NO'], [t, d, o, 1+(t+d+o)/3])[0] #P
 
-    return [grado, edad, sexo, curso, round(sele,2), round(est,2), round(libre,2), extra]
+    return [grado, edadGenerada, sexo, curso, round(sele,2), round(est,2), round(libre,2), extra]
 
 random.seed(0) #asegura que los resultados sean los mismos cada vez que se ejecuta
 
